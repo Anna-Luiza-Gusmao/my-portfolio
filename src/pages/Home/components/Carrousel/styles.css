@@ -1,0 +1,66 @@
+[class^="number-slide"],
+[class*=" number-slide"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 200px;
+  max-height: 100vh;
+  width: 100%;
+}
+
+.number-slide-orange {
+  background: #FFAE35;
+  color: #332F2E;
+  box-shadow: 0px 4px 20px rgba(51, 47, 46, 0.5);
+}
+
+.number-slide-gray {
+  background: #332F2E;
+  color: #FFAE35;
+  box-shadow: 0px 4px 20px #FFAE35;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6rem 0;
+  width: 100%;
+}
+.scene {
+  width: 260px;
+  height: 200px;
+  perspective: 1000px;
+  position: relative;
+}
+.scene .carousel.keen-slider {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  position: absolute;
+  transform: translateZ(-288px);
+  transform-style: preserve-3d;
+  animation: rotate360 30s infinite forwards linear;
+}
+.carousel__cell {
+  position: absolute;
+  width: 343px;
+  left: 10px;
+  height: 209px;
+  border-radius: 1.125rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
