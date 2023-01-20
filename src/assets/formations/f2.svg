@@ -1,0 +1,12 @@
+<svg width="159" height="143" viewBox="0 0 159 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="60" cy="60" r="60" fill="#FFAE35" fill-opacity="0.9"/>
+<circle cx="99" cy="83" r="60" fill="#FFAE35" fill-opacity="0.9"/>
+<path d="M140 70C140 103.137 113.137 130 80 130C46.8629 130 20 103.137 20 70C20 36.8629 46.8629 10 80 10C113.137 10 140 36.8629 140 70Z" fill="#332F2E"/>
+<path d="M76.1429 80.7273H61.8571C61.0994 80.7273 60.3727 80.3442 59.8368 79.6622C59.301 78.9803 59 78.0554 59 77.0909V60.7273C59 59.7629 59.301 58.838 59.8368 58.156C60.3727 57.4741 61.0994 57.0909 61.8571 57.0909H76.1429" stroke="#FFAE35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M93.2858 55.2727H87.5715" stroke="#FFAE35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M93.2858 62.5454H87.5715" stroke="#FFAE35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M97.5715 48H83.2857C82.4968 48 81.8572 48.814 81.8572 49.8182V86.1818C81.8572 87.186 82.4968 88 83.2857 88H97.5715C98.3604 88 99 87.186 99 86.1818V49.8182C99 48.814 98.3604 48 97.5715 48Z" stroke="#FFAE35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.8572 80.7273V88" stroke="#FFAE35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90.4285 82.5455C91.612 82.5455 92.5714 81.3244 92.5714 79.8182C92.5714 78.312 91.612 77.0909 90.4285 77.0909C89.245 77.0909 88.2856 78.312 88.2856 79.8182C88.2856 81.3244 89.245 82.5455 90.4285 82.5455Z" fill="#FFAE35"/>
+<path d="M76 88H66" stroke="#FFAE35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
