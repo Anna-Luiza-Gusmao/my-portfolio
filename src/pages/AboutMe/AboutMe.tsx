@@ -5,8 +5,13 @@ import { AboutMeContainer, Formation, FormationContainer } from "./styles"
 import FormationOne from '../../assets/formations/f1.svg'
 import FormationTwo from '../../assets/formations/f2.svg'
 import FormationThree from '../../assets/formations/f3.svg'
+import { useEffect } from "react"
 
 export function AboutMe () {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    
     return (
         <AboutMeContainer>
             <h1>About me...</h1>
