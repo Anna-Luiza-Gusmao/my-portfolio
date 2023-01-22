@@ -1,4 +1,4 @@
-import { OrangeStack, GrayStack, StacksContainer, AllStacks } from "./styles"
+import { OrangeStack, GrayStack, StacksContainer, AllStacks, Title } from "./styles"
 
 export function Stacks() {
     const stacks = [
@@ -16,6 +16,10 @@ export function Stacks() {
 
     return (
         <StacksContainer>
+            <Title>
+                <h2>MY STACKS</h2>
+                <h3>MY STACKS</h3>
+            </Title>
             <AllStacks>
                 {
                     stacks.map((item) => (

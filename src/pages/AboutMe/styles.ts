@@ -14,7 +14,7 @@ export const AboutMeContainer = styled.main`
 export const FormationContainer = styled.section`
     display: flex;
     justify-content: center;
-    padding: 3.5rem 21.5rem;
+    padding: 8rem 21.5rem;
     gap: 8.5rem;
 
     img {
@@ -28,4 +28,10 @@ export const FormationContainer = styled.section`
         text-align: center;
         color: ${props => props.theme["gray-700"]};
     }
+`
+
+export const Formation = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `

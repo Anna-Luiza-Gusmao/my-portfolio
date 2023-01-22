@@ -5,8 +5,31 @@ export const StacksContainer = styled.div`
     flex-direction: column;
     justify-content: center;
 
-    padding: 11.5rem 0;
-    margin-bottom: 4.75rem;
+    margin-bottom: 2.5rem;
+`
+
+export const Title = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 3rem 0;
+
+    h2 {
+        color: ${props => props.theme["orange-400"]};
+        font-weight: 800;
+        font-size: 5.375rem;
+    }
+    h3 {
+        color: rgba(51, 47, 46, 0.8);
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 49px;
+        letter-spacing: 0.8em;
+
+        padding-left: 1.25rem;
+        margin-top: -5rem;
+    }
 `
 
 export const AllStacks = styled.section`
@@ -15,6 +38,8 @@ export const AllStacks = styled.section`
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 3.25rem;
     column-gap: 2.75rem;
+
+    padding-top: 4rem;
 `
 
 export const OrangeStack = styled.div`
