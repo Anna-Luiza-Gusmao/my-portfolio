@@ -16,10 +16,18 @@ interface ProjectProps {
 }
 
 export function Project ({id, title, language, link}: ProjectProps) {
-    console.log()
+    const paths = [
+        path1,
+        path2,
+        path3,
+        path4,
+        path5,
+        path6
+    ]
+
     return (
         <ProjectContainer>
-            <img src={path1} />
+            <img src={paths[id - 1]} />
             <ProjectTitle>{title}</ProjectTitle>
             <ProjectLanguage>{language}</ProjectLanguage>
             <ButtonViewGithub path={link}/>
