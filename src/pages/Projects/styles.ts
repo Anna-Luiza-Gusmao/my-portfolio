@@ -29,3 +29,18 @@ export const Title = styled.h1`
     font-weight: 700;
     font-size: 4rem;
 `
+
+export const ProjectsContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`
+
+export const AllProjects = styled.section`
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3.5rem;
+    column-gap: 6.125rem;
+
+    padding-top: 3.75rem;
+`
