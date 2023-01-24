@@ -21,6 +21,10 @@ export const PhotoLoading = styled.img`
     border-radius: 50%;
     box-shadow: 0px 0px 8px 2px ${props => props.theme["gray-500"]};
     outline: 6px solid ${props => props.theme["orange-400"]};
+
+    @media (min-width: 320px) and (max-width: 480px) { 
+        outline: 0px solid ${props => props.theme["orange-400"]};
+    }
 `
 
 export const swivelChair = keyframes`
