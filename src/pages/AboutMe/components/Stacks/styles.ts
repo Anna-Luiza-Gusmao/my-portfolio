@@ -19,6 +19,10 @@ export const Title = styled.div`
         color: ${props => props.theme["orange-400"]};
         font-weight: 800;
         font-size: 5.375rem;
+
+        @media (min-width: 320px) and (max-width: 480px) { 
+            font-size: 3.375rem;
+        }
     }
     h3 {
         color: rgba(51, 47, 46, 0.8);
@@ -29,6 +33,11 @@ export const Title = styled.div`
 
         padding-left: 1.25rem;
         margin-top: -5rem;
+
+        @media (min-width: 320px) and (max-width: 480px) { 
+            font-size: 1.25rem;
+            margin-top: -3.75rem;
+        }
     }
 `
 
@@ -40,6 +49,11 @@ export const AllStacks = styled.section`
     column-gap: 2.75rem;
 
     padding-top: 4rem;
+
+    @media (min-width: 320px) and (max-width: 480px) { 
+        grid-template-columns: 1fr;
+        padding-top: 3rem;
+    }
 `
 
 export const OrangeStack = styled.div`
