@@ -35,4 +35,10 @@ export const ButtonFollowMeContainer = styled.div`
         transition: .2s;
         height: 1.5rem;
     }
+
+    @media (min-width: 320px) and (max-width: 480px) { 
+        p {
+            font-size: 1.25rem;
+        }
+    }
 `
