@@ -8,7 +8,7 @@ export const ContactContainer = styled.div`
     background-repeat: no-repeat;
     background-size: cover; 
 
-    padding-bottom: 12rem;
+    padding-bottom: 10rem;
 `
 
 export const ContactMain = styled.main`
@@ -17,7 +17,7 @@ export const ContactMain = styled.main`
     align-items: center;
 
     position: relative;
-    top: 4rem;
+    top: 3rem;
 
     h1 {
         font-size: 4rem;
