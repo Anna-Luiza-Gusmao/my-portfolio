@@ -17,6 +17,10 @@ export const ProjectContainer = styled.div`
         margin-bottom: 0.625rem;
         object-fit: cover;
     }
+
+    @media (min-width: 320px) and (max-width: 480px) { 
+        padding: 0.75rem 1.75rem;
+    }
 `
 
 export const ProjectTitle = styled.p`
