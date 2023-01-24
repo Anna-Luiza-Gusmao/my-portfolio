@@ -13,7 +13,6 @@ export function Stacks() {
         'Git'
     ]
 
-
     return (
         <StacksContainer>
             <Title>
