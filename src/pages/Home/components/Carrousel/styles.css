@@ -56,6 +56,15 @@
   flex-direction: column;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .carousel__cell {
+    position: absolute;
+    width: 223px;
+    left: 2px;
+    height: 160px;
+  }
+}
+
 @keyframes rotate360 {
   from {
     transform: rotateY(0deg);

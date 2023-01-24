@@ -24,7 +24,7 @@ export function Home () {
                 <h2>| FRONTEND DEVELOPER |</h2>
             </TextContainer>
             <Carousel />
-            <footer style={{'right': '0', 'position': 'absolute', 'margin': '3rem 0'}}>
+            <footer>
                 <ButtonNextPage path="about-me" />
             </footer>
         </HomeContainer>
