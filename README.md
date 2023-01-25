@@ -4,12 +4,11 @@
 
 ## 🎉 Let's go!
 
-Para visitar o meu portifólio online acesse o link 🔗: https://symphonious-strudel-22389a.netlify.app
+Para visitar o meu portifólio online acesse o link | To visit my online portfolio visit the link 
+<br>🔗: https://symphonious-strudel-22389a.netlify.app
 
 
-## 🚀 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Tecnologias |  Technologies   
 
 - HTML e CSS
 - Typescript
@@ -18,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Vite
 
 
-## 📚 Bibliotecas
+## 📚 Bibliotecas | Libraries
 
 - Phosphor Icons
 - Styled Components
